@@ -1,4 +1,4 @@
-# autofinetune
+# AutoFinetune
 Fine tune an OpenAI model in one command line.
 
 AutoFineTune is an open-source project aimed at providing an effortless way to fine-tune OpenAI models using YouTube video transcripts or text input. The project automates the process of transcript cleaning, prompt-completion pair generation, and training, making it easier to refine AI models for specific tasks.
