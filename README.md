@@ -33,6 +33,7 @@ pip install -r requirements.txt
 echo "OPENAI_API_KEY=your_api_key_here" > .env
 
 *Usage*
+
 Fine-tuning with a YouTube video transcript
 
 ./run_pipeline.sh https://www.youtube.com/watch?v=your_video_id_here
