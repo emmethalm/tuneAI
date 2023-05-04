@@ -1,0 +1,45 @@
+{
+  "name": "python-shell",
+  "version": "5.0.0",
+  "description": "Run Python scripts from Node.js with simple (but efficient) inter-process communication through stdio",
+  "keywords": [
+    "python"
+  ],
+  "scripts": {
+    "test": "tsc -p ./ && mocha -r ts-node/register",
+    "appveyorTest": "tsc -p ./ && nyc mocha --reporter mocha-appveyor-reporter test/*.js",
+    "compile": "tsc -watch -p ./",
+    "compileOnce": "tsc -p ./"
+  },
+  "devDependencies": {
+    "@types/mocha": "^8.2.1",
+    "@types/node": "^14.17.21",
+    "@types/should": "^13.0.0",
+    "mocha": "^8.2.1",
+    "mocha-appveyor-reporter": "^0.4.0",
+    "should": "^13.2.1",
+    "ts-node": "^9.0.0",
+    "typescript": "^4.4.3"
+  },
+  "files": [
+    "*.d.ts",
+    "*.js",
+    "*.js.map",
+    "CHANGELOG.md",
+    "README.md"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/extrabacon/python-shell"
+  },
+  "homepage": "http://github.com/extrabacon/python-shell",
+  "bugs": "http://github.com/extrabacon/python-shell/issues",
+  "author": {
+    "name": "Nicolas Mercier",
+    "email": "nicolas@extrabacon.net"
+  },
+  "engines": {
+    "node": ">=0.10"
+  },
+  "license": "MIT"
+}

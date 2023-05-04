@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "fs": "^0.0.1-security",
+    "openai": "^3.2.1",
+    "python-shell": "^5.0.0",
+    "threading": "^0.0.2"
+  }
+}
