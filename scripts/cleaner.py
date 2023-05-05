@@ -1,6 +1,6 @@
 import openai
 
-openai.api_key = "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"
+openai.api_key = "sk-XXXXXXXXXXXXXXXXXX"
 
 def load_text(file_path):
     with open(file_path, 'r') as file:

@@ -4,7 +4,7 @@
 YOUTUBE_SCRAPER="scripts/youtube_scraper.ts"
 CLEANER="scripts/cleaner.py"
 PROMPT_COMPLETION_GEN="scripts/prompt_completion_gen.py"
-OPENAI_API_KEY="your_openai_api_key_here"
+OPENAI_API_KEY="your_openai_api_key_here" # Paste in your own API key here
 
 # Check if a YouTube URL is provided as an argument
 if [ -z "$1" ]; then
