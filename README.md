@@ -71,7 +71,7 @@ The quality of your fine-tuning is fully dependent on the quality of your data.
 
 Happy building!
 
-### Share what you build with me on Twitter [@ehalm_](https://twitter.com/ehalm_)
+### Share what you build with me on Twitter [@ehalm_](https://twitter.com/ehalm_) 👋
 
 ## License
 
