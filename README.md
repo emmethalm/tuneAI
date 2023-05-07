@@ -29,7 +29,9 @@ cd tuneAI
 3. Install the required packages:
 
 npm install
+
 npm install openai
+
 npm install python3
 
 4. Create a .env file in the project root directory and add your OpenAI API key OR just add your API key to cleaner.py and prompt_completion_gen.py:
