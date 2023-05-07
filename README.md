@@ -27,7 +27,10 @@ git clone https://github.com/emmethalm/tuneAI.git
 cd tuneAI
 
 3. Install the required packages:
-pip install -r requirements.txt
+
+npm install
+npm install openai
+npm install python3
 
 4. Create a .env file in the project root directory and add your OpenAI API key OR just add your API key to cleaner.py and prompt_completion_gen.py:
 echo "OPENAI_API_KEY=your_api_key_here" > .env
@@ -65,6 +68,8 @@ To run step by step:
 The quality of your fine-tuning is fully dependent on the quality of your data.
 
 Happy building!
+
+### Share what you build with me on Twitter [@ehalm_](https://twitter.com/ehalm_)
 
 ## License
 
